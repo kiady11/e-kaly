@@ -1,8 +1,26 @@
 @import '../../../scss/variables';
 
-.container {
+.header-container {
   width: 100%;
-  height: 100px;
+  height: 65px;
   background-color: $brown-color;
-  padding: 0%;
+  position: sticky;
+}
+
+.item  {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-top: 13px;
+  margin-left: 750px;
+  .item-1  {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.website-name, .item-2,.item-3,.item-4,.item-5 {
+  margin: 0 auto;
+  color: $cream-color;
+  padding-top: 7px;
 }

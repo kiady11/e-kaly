@@ -1,0 +1,19 @@
+@import '../../../scss/variables';
+
+.footer-container {
+  width: 100%;
+  height: 200px;
+  background-color: $darkBlue-color;
+  position: sticky;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+}

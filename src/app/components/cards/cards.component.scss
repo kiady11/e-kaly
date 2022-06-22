@@ -1,0 +1,13 @@
+@import '../../../scss/variables';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4%;
+}
